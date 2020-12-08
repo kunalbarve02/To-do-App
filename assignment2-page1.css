@@ -19,6 +19,15 @@
     cursor: pointer;
     padding: 10px;
 }
+.nav-head
+{
+    display: inline;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 3.3em;
+    margin-left: 20%;
+    color: black;
+}
 #Heading-List
 {
     display: none;
@@ -295,20 +304,21 @@
         width: 325px;
         height: 270px;
         top: 20%;
-        left: 3%;
+        left: 5%;
         box-shadow: 10px 10px 200px 500px rgba(141, 139, 139, 0.5);
+        justify-content: center;
     }
     .card-heading
     {
-        margin-left: 17%;
+        margin-left: 14%;
     }
     .card-input
     {
-        margin-left: 17%;
+        margin-left: 13%;
     }
     .card-add-button
     {
-        margin-left: 20%;
+        margin-left: 19%;
     }
     .Header-Container
     {
