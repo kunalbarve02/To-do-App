@@ -1,0 +1,344 @@
+.Header-Container
+{
+    display: block;
+    height: 105px;
+    margin-left: 20%;
+}
+.Large-view-nav
+{
+    position: sticky;
+    top: 15%;
+    left: 15%;
+    font-size: 2.6em;
+    display: none;
+    font-size: 3em;
+    background-color: #ff6d3f;
+    border: 0px;
+    border-radius: 1.5em;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+#Heading-List
+{
+    display: none;
+}
+.back-span
+{
+    display: inline;
+    margin-left: 10px;
+    font-size: 2.6em;
+    font-weight: 200;
+    color: gray;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.back-Button
+{
+    
+    margin-left: 8%;
+    margin-top: 8%;
+    font-size: 25px;
+    color: white;
+    background-color: #ff6d3f;
+    border: 0px;
+    border-radius: 30px;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    cursor: pointer;
+    padding: 10px;
+}
+.Heading 
+{
+    text-align: center;
+    display: inline-flex;
+    font-size: 3.3em;
+    font-weight: bolder;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.Heading-List 
+{ 
+    display: inline;
+    margin-left: 10px;
+    font-size: 3.3em;
+    font-weight: 200;
+    color: gray;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.Button
+{
+    margin-left: 450px;
+    font-size: 32px;
+    color: white;
+    background-color: #ff6d3f;
+    border: 0px;
+    border-radius: 30px;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    cursor: pointer;
+}
+.Add-List
+{
+    display: inline-flex;    
+    font-size: 2em;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    cursor: pointer;
+}
+.defmsg
+{
+    text-align: center;
+}
+.defmsg-content
+{
+    font-size: 3rem;
+    color: gray;
+    display: block;
+}
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    margin: auto;
+    width: 600px;
+    height: 900px;
+}
+.card 
+{
+    height: 250px;
+    width: 500px;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 700px 500px rgba(250,250, 250, 0.8);
+    border: 1px solid #e74c3c;
+    border-radius: 10px;
+    display: none;
+    transition: 0.5s;
+}
+.card-heading
+{
+    font-size: 2.3em;
+    font-weight: lighter;
+    color: #ff6d3f;
+    margin-top: 0.8em;
+    margin-left: 25%;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 550 ;
+}
+.card-input
+{
+    border: 1px #ff6d3f solid;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 25%;
+    box-shadow: 8px 8px 20px 5px lightgray;
+    height: 10%;
+}
+.btn-container
+{
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    margin-top: 10%;
+    margin-right:20%;
+}
+.card-add-button
+{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #ff6d3f;
+    border: 0px;
+    border-radius: 24px;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-left: 25%;
+    cursor: pointer;
+}
+.List-Container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    margin :auto;
+    height: fit-content;
+    width: fit-content;     
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;   
+}
+.List
+{
+    display: inline-block;
+    box-sizing: content-box;
+    height: fit-content;
+    width: 225px;
+    border: 1px #ff6d3f solid;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 8px 8px 20px 5px lightgray;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.List-Heading
+{
+    font-size: 1.35em;
+    font-weight: lighter;
+    color: #ff6d3f;
+    margin-top: 1.2em;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 550 ;
+    cursor: pointer;
+}
+.Horizontal-Line
+{
+    margin-left: 2em;
+}
+.footer
+{
+    display: flex-end;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: fit-content;
+    height: 110px;
+    /*margin-top: 97%;*/
+    margin-left: auto;
+}
+.add-item
+{
+    background-color:#ff6d3f;
+    font-size: 1.8rem;
+    color: white;
+    border:0px ;
+    border-radius: 50%;
+    margin-top: 90%;
+    margin-left: auto;
+    cursor: pointer;
+}
+.markitem
+{
+    background-color:#ff6d3f;
+    color: white;
+    font-size: 0.5em;
+    border:0px ;
+    border-radius: 75%;
+    cursor: pointer;
+}
+.markitem:active
+{
+    display: none;
+}
+.del-list
+{
+    border: 0px; 
+    font-size: 1.8rem;
+    border:0px ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.itCont
+{
+    text-align: center;
+    list-style-type:none;
+}
+.listItem
+{
+    font-size:1.2em;
+    cursor: pointer;
+}
+.Large-view
+{
+    margin: auto;
+    margin-top: 20%;
+    height: fit-content;
+    width: 400px;
+    border: 1px #ff6d3f solid;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 8px 8px 20px 5px lightgray;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+@media screen and (min-width:360px) and (max-width:480px)
+{
+    body
+    {
+        width: 100%;
+    }
+    .card-container
+    {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .card
+    {
+        width: 350px;
+        height: 300px;
+        top: 20%;
+        left: 20%;
+        box-shadow: 10px 10px 200px 500px rgba(141, 139, 139, 0.5);
+    }
+    .card-heading
+    {
+        margin-left: 17%;
+    }
+    .card-input
+    {
+        margin-left: 17%;
+    }
+    .card-add-button
+    {
+        margin-left: 20%;
+    }
+    .Header-Container
+    {
+        margin-left: 2%;
+    }
+    .Button
+    {
+        margin-left: 15%;
+    }
+    .Add-List
+    {
+        display: none;
+    }
+    .List-Heading
+    {
+        margin-left:3%;
+        width: 99%;
+        font-size: 1.7em;
+    }
+    .Horizontal-Line
+    {
+        display: none;
+    }
+    .footer
+    {
+        display: none;
+        margin-top: 10%;
+    }
+    .itCont
+    {
+        display: none;
+    }
+    .Large-view
+    {
+        width: 350px;
+    }
+}
