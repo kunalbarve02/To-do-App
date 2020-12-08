@@ -194,6 +194,10 @@
     margin-left: 25px;
     margin-top: 20px;
 }
+.List:hover
+{
+    box-shadow: 8px 8px 20px 5px rgba(211,211,211, 0.8);
+}
 .List-Heading
 {
     font-size: 1.35em;
@@ -288,10 +292,10 @@
     }
     .card
     {
-        width: 350px;
-        height: 300px;
+        width: 325px;
+        height: 270px;
         top: 20%;
-        left: 20%;
+        left: 3%;
         box-shadow: 10px 10px 200px 500px rgba(141, 139, 139, 0.5);
     }
     .card-heading
