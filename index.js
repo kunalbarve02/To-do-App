@@ -101,9 +101,11 @@ function createItem() {                                             //to create 
     console.log(currentList);
     itemHead=$("<li></li>").text(popIn.val());
     itemHead.addClass("listItem");
-    itemHead.attr("onclick","markItem(this)");
     tdlist.append(itemHead);
+    markDone=$("<button class='mark-done-btn'>Mark Done</button>")
+    markDone.attr("onclick","markItem(this)");
     tditems.push(itemHead);
+    tdlist.append(markDone)
     tdarray.map(item=>{
         console.log(item);
         console.log(item.tditlist[0]);
@@ -194,6 +196,7 @@ function normalView() {                                                 //to dis
 }
 function markItem(element)
 {
+    element=element.nextSibling
     tdarray.map(list=>{
         list.itArr.map(mkit=>{
             if(element==mkit[0])
@@ -205,11 +208,10 @@ function markItem(element)
             }
         })
     })
-    
-}
 if (tdarray.length === 0)
 {
     def();
 }
 else
-    defmsgpop.remove();
+    defmsgpop.remove()
+}

@@ -288,6 +288,17 @@
     font-family: 'Arimo', sans-serif;
     font-family: 'Nanum Gothic', sans-serif;
 }
+.mark-done-btn
+{
+    border: 0px;
+    border-radius: 10px;
+    background-color: #ff6d3f;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 12px;
+    float: right;
+}
 @media screen and (min-width:360px) and (max-width:480px)
 {
     body
